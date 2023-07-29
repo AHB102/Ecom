@@ -1,14 +1,19 @@
-// Sub Service: 1)Add to cart 2)List the cart 3) Remove/Delete from cart
 package controllers
 
-func AddProduct() {
+import "github.com/gin-gonic/gin"
+
+func AddProduct() gin.HandlerFunc {
 
 }
 
-func ListProducts() {
+func ListProducts() gin.HandlerFunc {
 
 }
 
-func RemoveProduct() {
+func RemoveProduct() gin.HandlerFunc {
+
+}
+
+func BuyProduct() gin.HandlerFunc {
 
 }
